@@ -4,11 +4,9 @@
 # Created on: Oct 2021
 # This is the Perimeter of Pentagon program in Python
 
-import math
-
 
 def calculate_perimeter_of_pentagon(side):
-    # this progam cacluates the perimeter of a pentagon
+    # this program calculates the perimeter of a pentagon
 
     # process
     perimeter = round(side * 5, 2)
@@ -17,7 +15,7 @@ def calculate_perimeter_of_pentagon(side):
 
 
 def main():
-    # this function gets the legth of one side of the pentagon
+    # this function gets the length of one side of the pentagon
 
     # tell the user what this program does
     print("This program calculates the perimeter of a pentagon.")
